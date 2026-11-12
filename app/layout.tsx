@@ -15,40 +15,40 @@ const sourceSerif = Source_Serif_4({
   display: 'swap',
 })
 
-const siteUrl = 'https://globalmigrationhub.com'
+const siteUrl = 'https://dhac.org'
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {
-    default: 'Global Migration Hub | Trusted Visa & Immigration Consultancy',
-    template: '%s | Global Migration Hub',
+    default: 'Department Of Home Affairs Commission | Trusted Visa & Immigration Consultancy',
+    template: '%s | Department Of Home Affairs Commission',
   },
   description:
-    'Global Migration Hub provides expert work permit services, up-to-date immigration news, and a secure client portal to track your visa status. Trusted guidance for your relocation journey.',
+    'Department Of Home Affairs Commission provides expert work permit services, up-to-date immigration news, and a secure client portal to track your visa status. Trusted guidance for your relocation journey.',
   keywords: [
     'immigration consultancy',
     'work permit services',
     'visa status',
     'visa application',
     'immigration news',
-    'global migration',
+    'home affairs commission',
     'relocation services',
   ],
-  authors: [{ name: 'Global Migration Hub' }],
+  authors: [{ name: 'Department Of Home Affairs Commission' }],
   alternates: {
     canonical: '/',
   },
   openGraph: {
     type: 'website',
     url: siteUrl,
-    title: 'Global Migration Hub | Trusted Visa & Immigration Consultancy',
+    title: 'Department Of Home Affairs Commission | Trusted Visa & Immigration Consultancy',
     description:
       'Expert work permit services, immigration news, and a secure client portal to track your visa status.',
-    siteName: 'Global Migration Hub',
+    siteName: 'Department Of Home Affairs Commission',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Global Migration Hub | Trusted Visa & Immigration Consultancy',
+    title: 'Department Of Home Affairs Commission | Trusted Visa & Immigration Consultancy',
     description:
       'Expert work permit services, immigration news, and a secure client portal to track your visa status.',
   },
