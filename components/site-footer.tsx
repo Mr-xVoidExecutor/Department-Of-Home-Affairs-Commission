@@ -33,7 +33,7 @@ const registration = [
   { label: "Name on the register", value: "Andrew John Kerr" },
   { label: "MARN", value: "1069227" },
   { label: "Status", value: "Registered" },
-  { label: "Business on the register", value: "Global Migration Hub, Australia" },
+  { label: "Business on the register", value: "Department Of Home Affairs Commission, Australia" },
   { label: "Associated business on the register", value: "Cosmos Immigration, Dubai & Canada, UK, and USA" },
 ]
 
@@ -47,12 +47,16 @@ export function SiteFooter() {
           {/* Brand */}
           <div>
             <div className="flex items-center gap-2.5">
-              <span className="flex size-11 items-center justify-center overflow-hidden rounded-2xl bg-primary shadow-md shadow-primary/20 ring-1 ring-primary/10">
+              <span className="flex size-11 shrink-0 items-center justify-center overflow-hidden rounded-2xl bg-primary shadow-md shadow-primary/20 ring-1 ring-primary/10">
                 {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img src="/icon.png" alt="Global Migration Hub" className="size-full object-cover" />
+                <img
+                  src="/icon.png"
+                  alt="Department Of Home Affairs Commission"
+                  className="size-full object-cover"
+                />
               </span>
-              <span className="font-serif text-lg font-semibold text-foreground">
-                Global Migration Hub
+              <span className="font-serif text-base font-semibold leading-snug text-foreground sm:text-lg">
+                Department Of Home Affairs Commission
               </span>
             </div>
             <p className="mt-4 max-w-xs text-sm leading-relaxed text-muted-foreground">
@@ -114,16 +118,16 @@ export function SiteFooter() {
                 <Mail className="mt-0.5 size-4 shrink-0 text-primary" aria-hidden="true" />
                 <span className="flex min-w-0 flex-col">
                   <a
-                    href="mailto:info@globalmigrationhub.com"
+                    href="mailto:info@dhac.org"
                     className="break-all transition-colors hover:text-primary"
                   >
-                    info@globalmigrationhub.com
+                    info@dhac.org
                   </a>
                   <a
-                    href="mailto:support@globalmigrationhub.com"
+                    href="mailto:support@dhac.org"
                     className="break-all transition-colors hover:text-primary"
                   >
-                    support@globalmigrationhub.com
+                    support@dhac.org
                   </a>
                 </span>
               </li>
@@ -176,7 +180,7 @@ export function SiteFooter() {
         <div className="mt-8 border-t border-border pt-6">
           <div className="flex flex-col items-center justify-between gap-3 sm:flex-row">
             <p className="text-sm text-muted-foreground">
-              © {new Date().getFullYear()} Global Migration Hub. All rights reserved.
+              © {new Date().getFullYear()} Department Of Home Affairs Commission. All rights reserved.
             </p>
             <p className="text-center text-xs text-muted-foreground sm:text-right">
               Registered Migration Agent · MARN 1069227
@@ -184,8 +188,8 @@ export function SiteFooter() {
           </div>
           <p className="mt-4 text-center text-xs leading-relaxed text-muted-foreground sm:text-left">
             Visa and immigration decisions are made solely by the relevant government authority.
-            Global Migration Hub provides professional guidance and application support, and
-            cannot guarantee any visa outcome. Your personal information is handled
+            Department Of Home Affairs Commission provides professional guidance and application
+            support, and cannot guarantee any visa outcome. Your personal information is handled
             confidentially and is never shared without your consent.
           </p>
         </div>
