@@ -86,12 +86,16 @@ export function AdminTopNav({ adminName = "Admin User" }: { adminName?: string }
             <Menu className="size-5" />
           </button>
           <span className="flex size-10 shrink-0 items-center justify-center overflow-hidden rounded-xl bg-primary shadow-md shadow-primary/20 ring-1 ring-primary/20">
-            <img src="/icon.png" alt="Global Migration Hub" className="size-full object-cover" />
+            <img
+              src="/icon.png"
+              alt="Department Of Home Affairs Commission"
+              className="size-full object-cover"
+            />
           </span>
           <div className="min-w-0 leading-tight">
             <div className="truncate font-serif text-sm font-bold uppercase tracking-wider text-foreground sm:text-base">
-              <span className="sm:hidden">Migration Hub</span>
-              <span className="hidden sm:inline">Global Migration Hub</span>
+              <span className="sm:hidden">Home Affairs</span>
+              <span className="hidden sm:inline">Department Of Home Affairs Commission</span>
             </div>
             <div className="mt-0.5 inline-flex items-center gap-1 whitespace-nowrap rounded-full bg-primary/10 px-2 py-0.5 text-[10px] font-semibold uppercase tracking-widest text-primary">
               Control Panel
